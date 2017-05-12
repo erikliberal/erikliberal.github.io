@@ -116,6 +116,10 @@ img.article-image {
   width: 100%;
   height: auto;
 }
+img.about-header-image{
+  height:auto;
+  width: 200px;
+}
 
 .portfolio-max-width {
   max-width: 900px;
