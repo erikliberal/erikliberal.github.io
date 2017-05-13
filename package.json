@@ -18,6 +18,7 @@
     "webpack": "~2.5.1"
   },
   "scripts": {
+    "build" : "webpack",
     "test": "echo \"no test specified\" && exit 0"
   },
   "repository": {
