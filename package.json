@@ -18,7 +18,11 @@
     "webpack": "~2.5.1"
   },
   "scripts": {
+    "prewatch" : "cp -r pages/index.html stylesheets/styles.css images public",
+    "watch" : "webpack --watch",
+    "prebuild" : "rm -rf public/*",
     "build" : "webpack",
+    "postbuild" : "cp -r pages/index.html stylesheets/styles.css images public",
     "test": "echo \"no test specified\" && exit 0"
   },
   "repository": {
