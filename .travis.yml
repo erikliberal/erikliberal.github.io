@@ -1,21 +1,18 @@
 language: node_js
 node_js:
-  - "7"
-
-env:
-  matrix:
-    - GITHUB_TOKEN=$GITHUB_TOKEN
-
+  - stable
 
 branches:
   except:
     - master
+
 install:
   - npm install
+
 deploy:
-    provider: pages
-    skip_cleanup: true
-    github_token: $GITHUB_TOKEN
-    file: public/bundle.js
-    on:
-      branch: master
+    - provider: pages
+      skip_cleanup: true
+      github_token: $GITHUB_TOKEN
+      file: public/bundle.js
+      on:
+        branch: master
