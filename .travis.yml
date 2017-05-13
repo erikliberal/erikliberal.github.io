@@ -9,5 +9,5 @@ branches:
 install:
   - npm install --only=dev
 script:
-  - bash npm run build
+  - npm run build
   - bash ./scripts/deploy-to-gh-pages.sh
