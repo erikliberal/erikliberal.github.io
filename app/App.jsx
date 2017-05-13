@@ -1,12 +1,13 @@
 import React from 'react';
+import {BrowserRouter} from 'react-router-dom';
+import ReactDOM from 'react-dom';
+import {createBrowserHistory} from 'history';
+import routes from './Router/index.jsx';
 
-class App extends React.Component {
-  render(){
-    return (
-      <div>
-        {this.props.children}
-      </div>
-    );
-  }
-}
-export default App;
+let history = createBrowserHistory();
+ReactDOM.render(
+    <BrowserRouter history={history}>
+        {routes}
+    </BrowserRouter>,
+    document.getElementById('main-app')
+);
