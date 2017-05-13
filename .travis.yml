@@ -1,6 +1,15 @@
 language: node_js
 node_js:
   - "7"
+
+env:
+  matrix:
+    - GITHUB_TOKEN=$GITHUB_TOKEN
+
+
+branches:
+  except:
+    - master
 install:
   - npm install
 deploy:
