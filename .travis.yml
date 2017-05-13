@@ -8,10 +8,5 @@ branches:
 
 install:
   - npm install
-
-deploy:
-    - provider: pages
-      skip_cleanup: true
-      github_token: $GITHUB_TOKEN
-      file: public/bundle.js
-      target_branch: master
+script:
+  - bash ./scripts/deploy-to-gh-pages.sh
