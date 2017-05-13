@@ -43,6 +43,12 @@ class About extends React.Component {
                 twitter: <a href="http://www.twitter.com/erikliberal">@erikliberal</a>
               </p>
             </div>
+            <h3 className="mdl-cell mdl-cell--12-col mdl-typography--headline">Other</h3>
+            <div className="mdl-cell mdl-cell--8-col mdl-card__supporting-text no-padding">
+              <p>
+                GitHub: <a href="https://github.com/erikliberal/">erikliberal</a>
+              </p>
+            </div>
             <h3 className="mdl-cell mdl-cell--12-col mdl-typography--headline">Capacitações</h3>
             <div className="mdl-cell mdl-cell--8-col mdl-card__supporting-text no-padding ">
               <a target="_blank" href="https://drive.google.com/file/d/0B2yCplB5LZnWcGYwSjNFdk1jR2s/view">
