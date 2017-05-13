@@ -1,7 +1,14 @@
 module.exports = {
     entry: './app/App.jsx',
     output: {
-        path: './public',
+        path: [__dirname,'public'].join('/'),
         filename: 'bundle.js'
-    }
+    },
+     module: {
+         loaders: [{
+             test: /\.jsx$/,
+             exclude: /node_modules/,
+             loader: 'babel-loader'
+         }]
+     }
 };
