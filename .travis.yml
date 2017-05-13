@@ -14,5 +14,4 @@ deploy:
       skip_cleanup: true
       github_token: $GITHUB_TOKEN
       file: public/bundle.js
-      on:
-        branch: master
+      target_branch: master
