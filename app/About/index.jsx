@@ -26,7 +26,7 @@ class About extends React.Component {
           <div className="mdl-card__media">
           </div>
           <div className="mdl-grid portfolio-copy">
-            <img className="about-header-image" src="images/about-header.jpg" alt="" border="0" />
+            <img className="about-header-image" src="images/about-header.jpg" alt="" />
             <div className="mdl-cell mdl-cell--8-col mdl-card__supporting-text no-padding ">
                 <p>Desenvolvedor de software, palestrante</p>
                 <p>Uma de minhas maiores paixões é o desenvolvimento de software. Considero um hobbie procurar novas abordagens e meios que possam aprimorar a minha experiência e dos outros nesse tópico. Meu foco na vida é encontrar novos meios de entregar software de qualidade, agregando o máximo de valor com mínimo de desgaste dos clientes e desenvolvedores</p>
