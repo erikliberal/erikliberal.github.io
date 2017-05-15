@@ -17,11 +17,22 @@ class Post extends React.Component {
 
     render(){
         if (!this.props.type){
-          return (
-            <div className="mdl-cell mdl-cell--12-col">
+          if (this.props.title){
+            return (
+              <div className="mdl-cell mdl-cell--12-col">
+                  <h3 className="mdl-cell mdl-cell--12-col mdl-typography--headline">{this.props.title}</h3>
+                  <div className="mdl-cell mdl-cell--8-col mdl-card__supporting-text no-padding">
+                    {this.props.content.map(mapItemContentToPostElement)}
+                  </div>
+              </div>
+            );
+          } else {
+            return (
+              <div className="mdl-cell mdl-cell--12-col">
                 {this.props.content.map(mapItemContentToPostElement)}
-            </div>
-          );
+              </div>
+            );
+          }
         }
         if (this.props.type === 'image'){
           return (
