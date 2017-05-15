@@ -1,65 +1,9 @@
 [
   {
       "type":"preview-post",
-      "media" : "images/example-work01.jpg",
-      "title" : "Blog template",
+      "media":"images/header-bg.png",
+      "title" : "Novo conteúdo em breve",
       "supportingText" : "Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.",
-      "link" : "#portfolio-example01.html"
-  },
-  {
-      "type":"preview-post",
-      "media" : "images/example-work07.jpg",
-      "title" : "Sunt nulla",
-      "supportingText" : "Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.",
-      "link" : "#portfolio-example01.html"
-  },
-  {
-      "type":"preview-post",
-      "media" : " images/example-work02.jpg",
-      "title" : "Android.com website",
-      "supportingText" : "Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.",
-      "link" : "#portfolio-example01.html"
-  },
-  {
-      "type":"preview-post",
-      "media" : " images/example-work03.jpg",
-      "title" : "Dashboard template",
-      "supportingText" : "Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.",
-      "link" : "#portfolio-example01.html"
-  },
-  {
-      "type":"preview-post",
-      "media" : " images/example-work04.jpg",
-      "title" : "Text-heavy website",
-      "supportingText" : "Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.",
-      "link" : "#portfolio-example01.html"
-  },
-  {
-      "type":"preview-post",
-      "media" : " images/example-work08.jpg",
-      "title" : "Ex officia laborum",
-      "supportingText" : "Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.",
-      "link" : "#portfolio-example01.html"
-  },
-  {
-      "type":"preview-post",
-      "media" : " images/example-work05.jpg",
-      "title" : "Stand-alone article",
-      "supportingText" : "Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.",
-      "link" : "#portfolio-example01.html"
-  },
-  {
-      "type":"preview-post",
-      "media" : " images/example-work06.jpg",
-      "title" : "MDL website",
-      "supportingText" : "Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.",
-      "link" : "#portfolio-example01.html"
-  },
-  {
-      "type":"preview-post",
-      "media" : " images/example-work09.jpg",
-      "title" : "Consequat ut quis",
-      "supportingText" : "Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.",
-      "link" : "#portfolio-example01.html"
+      "link" : "about"
   }
 ]
