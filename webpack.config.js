@@ -21,14 +21,7 @@ module.exports = {
           {context:"pages", from: '**/*', to: ''},
           {context:"stylesheets", from: '**/*', to: ''},
           {from: 'images/**/*', to:''},
-          {from: 'data/**/*', to:''},
-          {context: path.join('node_modules','superagent'), from:'superagent.js', to:''}
-/*
-superagent.get('data/posts.json').end(function(err,resp){
-  console.log(err);
-  console.log(resp.body);
-});
-*/
+          {from: 'data/**/*', to:''}
        ], {
          copyUnmodified:true
        })
