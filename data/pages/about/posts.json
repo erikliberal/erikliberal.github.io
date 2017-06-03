@@ -44,6 +44,12 @@
           "target": "_blank",
           "href": "http://www.twitter.com/erikliberal",
           "content": ["@erikliberal"]
+        },"twitter: ",
+        {
+          "type": "anchor",
+          "target": "_blank",
+          "href": "https://www.linkedin.com/in/erikliberal",
+          "content": ["LinkedIn"]
         }
       ]
     }]
