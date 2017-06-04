@@ -25,6 +25,7 @@
     "watch": "webpack --watch",
     "prebuild": "rm -rf public/*",
     "build": "webpack",
+    "server": "browser-sync start -f public -s public",
     "test": "echo \"no test specified\" && exit 0"
   },
   "repository": {
