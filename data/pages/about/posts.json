@@ -1,0 +1,88 @@
+[{
+  "type": "post",
+  "title": "About",
+  "content": [{
+    "content": [{
+      "type": "image",
+      "class": "about-header-image",
+      "src": "images/about-header.jpg"
+    }, {
+      "content": [{
+        "type": "paragraph",
+        "content": [
+          "Desenvolvedor de software, palestrante"
+        ]
+      }, {
+        "type": "paragraph",
+        "content": [
+          "Uma de minhas maiores paixões é o desenvolvimento de software. Considero um hobbie procurar novas abordagens e meios que possam aprimorar a minha experiência e dos outros nesse tópico. Meu foco na vida é encontrar novos meios de entregar software de qualidade, agregando o máximo de valor com mínimo de desgaste dos clientes e desenvolvedores"
+        ]
+      }]
+    }]
+  }, {
+    "title": "Contact Info",
+    "content": [{
+      "type": "paragraph",
+      "content": [
+        "email: ",
+        {
+          "type": "anchor",
+          "target": "_blank",
+          "href": "mailto:erik.liberal@gmail.com",
+          "content": ["erik.liberal@gmail.com"]
+        }
+      ]
+    }]
+  }, {
+    "title": "Social Media",
+    "content": [{
+      "type": "paragraph",
+      "content": [
+        "twitter: ",
+        {
+          "type": "anchor",
+          "target": "_blank",
+          "href": "http://www.twitter.com/erikliberal",
+          "content": ["@erikliberal"]
+        }
+      ]
+    },{
+      "type": "paragraph",
+      "content": [
+        "LinkedIn: ",
+        {
+          "type": "anchor",
+          "target": "_blank",
+          "href": "https://www.linkedin.com/in/erikliberal",
+          "content": ["Erik Liberal"]
+        }
+      ]
+    }]
+  }, {
+    "title": "Other",
+    "content": [{
+      "type": "paragraph",
+      "content": [
+        "GitHub: ",
+        {
+          "type": "anchor",
+          "target": "_blank",
+          "href": "https://github.com/erikliberal",
+          "content": ["erikliberal"]
+        }
+      ]
+    }]
+  }, {
+    "title": "Capacitações",
+    "content": [{
+      "type": "anchor",
+      "target": "_blank",
+      "href": "https://drive.google.com/file/d/0B2yCplB5LZnWcGYwSjNFdk1jR2s/view",
+      "content": [{
+        "type": "image",
+        "class": "about-header-image",
+        "src": "images/O_Java-SE-8-OCA-clr.gif"
+      }]
+    }]
+  }]
+}]
