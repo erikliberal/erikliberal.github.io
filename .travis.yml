@@ -7,7 +7,6 @@ branches:
     - master
 
 install:
-  - npm install
-  - npm install --only=dev
+  - NODE_ENV=development npm install
 script:
   - npm run build && bash scripts/deploy-to-gh-pages.sh
